@@ -1964,7 +1964,7 @@
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-2.0.0.tgz#7036640b4e21cc2f259ae826ce843d277dad8cff"
   integrity sha512-RJJrrySY7A8havqpGObOB4W92QXKJo63/jFLLgpvOtsGUqbQZ9Sbgl35KMm1DjC6j7AvmmU2bIno+3IyEaemaw==
 
-"@types/styled-components@^5.1.12":
+"@types/styled-components@^5.1.10", "@types/styled-components@^5.1.12":
   version "5.1.12"
   resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-5.1.12.tgz#1a3679942746adecd1e736bfc47aea2c938a7d9a"
   integrity sha512-sTjc0+gMl08JvOHchQKgEGbbiSexSvWg5khUNSH4kosb7Tl4782AtfWMkAhQmeXMg2vIn6PthGVHFW+U/Dpihg==
@@ -9174,6 +9174,14 @@ react-dom@^17.0.2:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     scheduler "^0.20.2"
+
+react-easy-typography@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-easy-typography/-/react-easy-typography-1.0.0.tgz#f89e68690f1aa6511b7c2c1795a44106426e02e7"
+  integrity sha512-+xFomq8KHoEtlmQfhF/69ZDLx6qI8ZjE0YCrprRRgwWYaW+asvrjKemmwE/WDWLM4bckQ4Fo+Cmb9GC7Gsifxg==
+  dependencies:
+    "@types/styled-components" "^5.1.10"
+    styled-components "^5.3.0"
 
 react-error-overlay@^6.0.9:
   version "6.0.9"
